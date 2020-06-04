@@ -1,6 +1,6 @@
 <!-- # Pydoc-viewer -->
 <h1 align="center">
-  Taskboard
+  Pydoc-viewer
 </h1>
 
 <div align="center">
