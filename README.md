@@ -15,5 +15,3 @@ git clone https://github.com/Marceliny/pydoc-viewer
 pip -r requirements.txt
 python design.py
 ```
-
-### 
