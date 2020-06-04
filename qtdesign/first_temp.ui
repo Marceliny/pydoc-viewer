@@ -6,86 +6,50 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>939</width>
-    <height>512</height>
+    <width>975</width>
+    <height>553</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>PyDoc Viewer</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QListView" name="all_modules">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>10</y>
-      <width>256</width>
-      <height>192</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QListView" name="all_funcs">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>10</y>
-      <width>256</width>
-      <height>192</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="english_doc">
-    <property name="geometry">
-     <rect>
-      <x>640</x>
-      <y>10</y>
-      <width>256</width>
-      <height>192</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="turkish_doc">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>240</y>
-      <width>256</width>
-      <height>192</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="example">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>240</y>
-      <width>256</width>
-      <height>192</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="shell_output">
-    <property name="geometry">
-     <rect>
-      <x>640</x>
-      <y>240</y>
-      <width>256</width>
-      <height>192</height>
-     </rect>
-    </property>
-   </widget>
+   <layout class="QGridLayout" name="gridLayout_5">
+    <item row="1" column="3">
+     <widget class="QTextBrowser" name="example"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QListWidget" name="all_modules"/>
+    </item>
+    <item row="1" column="4">
+     <widget class="QTextBrowser" name="shell_output"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QTextBrowser" name="turkish_doc"/>
+    </item>
+    <item row="0" column="4">
+     <widget class="QTextBrowser" name="english_doc"/>
+    </item>
+    <item row="0" column="3">
+     <widget class="QListWidget" name="all_funcs"/>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>939</width>
+     <width>975</width>
      <height>30</height>
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="accessibleName">
+    <string>wdwdwadaw</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
